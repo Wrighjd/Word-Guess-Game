@@ -1,12 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Phsycic Game">
+        
+        <title>Psychic Game</title>
+        
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Architects+Daughter|The+Girl+Next+Door">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1><bold>The Psychic Game</bold></h1>
+            
+            <div id="userStats">
+                <p>Wins: <strong><span id="numWins"></span></strong></p>
+                <p>Losses: <strong><span id="numLosses"></span></strong></p>
+            </div>
+            
+            <p>Guess which letter I'm thinking of!</p>
+            <br>
+            
+            <p>Number of tries left: <strong><span id="numTriesLeft"></span></strong></p>
+            <p>Your guesses so far:</p>
+            <p><strong><span id="guesses"></span></strong></p>
+        </div>
+        
+        <script type="text/javascript" src="game.js"></script>
+    </body>
 </html>
