@@ -1,0 +1,53 @@
+:root {
+    --color-mint-green    : #4aaaa5;
+    --color-text          : #202020;
+    --color-text-highlight: #ff6600;git stroke-dasharray:;
+}
+
+body {
+    color: var(--color-text);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-size: 30px;
+    background-image: url("")
+}
+
+.container {
+    width  : 520px;
+    margin : auto;
+    padding: 60px 0;
+}
+
+h1 {
+    color         : var(--color-mint-green);
+    font-family   : "The Girl Next Door", cursive;
+    font-size     : 50px;
+    font-weight   : bold;
+    letter-spacing: 5px;
+
+    margin-bottom : 5%;
+}
+
+
+
+p {
+    letter-spacing: 2px;
+    line-height   : 40px;
+    font-size: 40px;
+    margin-bottom : 15%;
+}
+
+p strong {
+    color      : var(--color-text-highlight);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#userStats p {
+    float        : left;
+    width        : 50%;
+    margin-bottom: 7.5%;
+}
+
+#guesses {
+    letter-spacing: 15px;
+}
